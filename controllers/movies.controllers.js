@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Movie = require("../models/movie.models");
+const Movie = require("../models/Movie.models");
 const createError = require("http-errors");
 const { param } = require("../config/routes.config");
 

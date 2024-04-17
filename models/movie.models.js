@@ -15,7 +15,7 @@ const moviesSchema =new Schema (
         genre: {
             require : true,
             type : String,
-            enum: ['Action','Adventure','Comedy','Drama']
+            enum: ['Action','Adventure','Comedy','Drama','Animated']
         },
         plot: {
             type : String,
